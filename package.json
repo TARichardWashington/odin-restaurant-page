@@ -4,13 +4,15 @@
   "description": "Odin Restaurant Page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --mode=development",
+    "build-prod": "npx webpack --mode=production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TARichardWashington/odin-restaurant-page.git"
   },
-  "author": "",
+  "author": "Richard Washington",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TARichardWashington/odin-restaurant-page/issues"
