@@ -1,6 +1,6 @@
 export default function pageLoad() {
 
-    const doc = document.getElementById('content');
+    const doc = document.getElementById('body');
 
     const title = document.createElement('h1');
     title.textContent = 'Welcome to my restaurant';
